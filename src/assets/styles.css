@@ -1,0 +1,80 @@
+body {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 2rem;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  width: 100%;
+  padding: 1rem;
+  max-width: 400px;
+}
+
+.calculator {
+  background: var(--calculator-bg);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+  background-color: var(--display-bg);
+  color: var(--display-text);
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: right;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  min-height: 2.5rem;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  box-shadow: var(--btn-shadow);
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: background-color 0.5s;
+  color: var(--text-color);
+}
+
+.theme-toggle:hover {
+  background-color: var(--accent);
+}
+
+.theme-toggle .material-icons {
+  font-size: 28px;
+  vertical-align: middle;
+}

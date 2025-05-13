@@ -1,0 +1,18 @@
+[data-theme="light"] {
+  --bg-color: #ffffff;
+  --display-bg: #c1a3e0;
+  --display-text: #6e4398;
+  --button-bg: #8b62b4;
+  --button-text: #ede6f4;
+  --calculator-bg: #d6bfed;
+}
+
+[data-theme="dark"] {
+  --bg-color: #000000;
+  --display-bg: #b8b2b2;
+  --display-text: #242323;
+  --button-bg: #141212;
+  --button-text: #d3d0d0;
+  --calculator-bg: #333333;
+  --border-color: #000000;
+}
