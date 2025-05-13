@@ -3,7 +3,7 @@ body {
   color: var(--primary-color);
   font-family: var(--font-family);
   margin: 0;
-  padding: 2rem;
+  padding: 1rem;
   transition: background-color 0.3s, color 0.3s;
   display: flex;
   justify-content: center;
