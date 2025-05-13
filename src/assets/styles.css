@@ -75,7 +75,7 @@ button:hover {
 }
 
 .theme-toggle:hover {
-  background-color: var(--accent);
+  background-color: var(--bg-color);
 }
 
 .theme-toggle .material-icons {
